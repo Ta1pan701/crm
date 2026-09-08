@@ -1,5 +1,5 @@
 type UserRole = 'Admin' | 'Manager'
-interface ITeamUser {
+export interface ITeamUser {
     id: number;
     name: string;
     email: string;
